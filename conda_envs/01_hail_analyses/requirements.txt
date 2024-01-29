@@ -14,14 +14,9 @@ beautifulsoup4==4.11.1
 bleach==5.0.1
 boto3==1.26.16
 botocore==1.29.16
-Bottleneck @ file:///opt/conda/conda-bld/bottleneck_1657175564434/work
-Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1648883617327/work
-Cartopy @ file:///croot/cartopy_1674677761573/work
 certifi==2023.7.22
 cffi==1.15.1
 cftime==1.6.2
-charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1688813409104/work
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
 dacite==1.6.0
 debugpy==1.6.2
 decorator==5.1.1
@@ -48,10 +43,8 @@ httpcore==0.16.1
 httpx==0.23.1
 hypercorn==0.14.3
 hyperframe==6.0.1
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
 imageio==2.22.4
 imagesize==1.3.0
-importlib-resources @ file:///home/conda/feedstock_root/build_artifacts/importlib_resources_1691408075105/work
 ipykernel==6.15.1
 ipython==8.4.0
 ipython-genutils==0.2.0
@@ -70,15 +63,11 @@ jupyterlab-pygments==0.2.2
 jupyterlab-server==2.15.0
 jupyterlab-widgets==3.0.3
 kaleido==0.2.1
-kiwisolver @ file:///opt/conda/conda-bld/kiwisolver_1653292039266/work
 lapjv==1.3.1
 MarkupSafe==2.1.1
-matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1647441664166/work
 matplotlib-inline==0.1.3
-MetPy @ file:///home/conda/feedstock_root/build_artifacts/metpy_1688757851203/work
 mistune==0.8.4
 mkl-fft==1.3.1
-mkl-random @ file:///home/builder/ci_310/mkl_random_1641843545607/work
 mkl-service==2.4.0
 mongoengine==0.24.2
 motor==3.1.1
@@ -93,11 +82,8 @@ netCDF4==1.6.2
 networkx==2.8.8
 notebook==6.4.12
 notebook-shim==0.1.0
-numexpr @ file:///opt/conda/conda-bld/numexpr_1656940300424/work
-numpy @ file:///tmp/abs_653_j00fmm/croots/recipe/numpy_and_numpy_base_1659432701727/work
 opencv-contrib-python==4.5.5.62
 opencv-python-headless==4.6.0.66
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
 pandas==1.4.4
 pandocfilters==1.5.0
 parso==0.8.3
@@ -105,11 +91,8 @@ patool==1.12
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.2.0
-Pint @ file:///home/conda/feedstock_root/build_artifacts/pint_1686171160673/work
-platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1690813113769/work
 plotly==5.11.0
 ply==3.11
-pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1679580333621/work
 pprintpp==0.4.0
 priority==2.0.0
 prometheus-client==0.14.1
@@ -123,33 +106,21 @@ Pygments==2.12.0
 pyinstaller==4.8
 pyinstaller-hooks-contrib==2022.8
 pymongo==4.3.3
-pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
 pypng==0.20220715.0
-pyproj @ file:///croot/pyproj_1675244161691/work
 PyQt5-sip==12.11.0
 pyrsistent==0.18.1
-pyshp @ file:///home/conda/feedstock_root/build_artifacts/pyshp_1659002966020/work
-PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz @ file:///opt/conda/conda-bld/pytz_1654762638606/work
 pytz-deprecation-shim==0.1.0.post0
 PyWavelets==1.4.1
 PyYAML==6.0
 pyzmq==23.2.0
 qrcode==7.4.2
-requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1684774241324/work
 retrying==1.3.3
 rfc3986==1.5.0
-rpy2==3.5.13
 s3transfer==0.6.0
 scikit-image==0.19.3
 scikit-learn==1.1.2
 scipy==1.9.1
-seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
 Send2Trash==1.8.0
-shapely @ file:///croot/shapely_1680636282912/work
-sip @ file:///tmp/abs_44cd77b_pu/croots/recipe/sip_1659012365470/work
-six @ file:///tmp/build/80754af9/six_1644875935023/work
 sklearn==0.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
@@ -165,15 +136,10 @@ terminado==0.15.0
 threadpoolctl==3.1.0
 tifffile==2022.10.10
 tinycss2==1.1.1
-toml @ file:///tmp/build/80754af9/toml_1616166611790/work
-tornado @ file:///home/builder/ci_310/tornado_1640795392144/work
 tqdm==4.64.0
-traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1675110562325/work
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1688315532570/work
 tzdata==2022.6
 tzlocal==4.2
 universal-analytics-python3==1.1.1
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1689789803562/work
 voxel51-eta==0.8.1
 wcwidth==0.2.5
 webencodings==0.5.1
@@ -181,6 +147,4 @@ websocket-client==1.3.3
 widgetsnbextension==3.5.2
 wrapt==1.14.1
 wsproto==1.2.0
-xarray @ file:///home/conda/feedstock_root/build_artifacts/xarray_1692570435082/work
 xmltodict==0.13.0
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1689374466814/work
