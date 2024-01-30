@@ -50,6 +50,10 @@ from detectron2.config import get_cfg
 from detectron2.utils.visualizer import Visualizer
 from detectron2.data import MetadataCatalog, DatasetCatalog
 
+#Import matplotlib
+%matplotlib inline 
+from matplotlib import pyplot as plt
+
 # Load a sample image for testing
 image_path = "dog.jpg"
 image = cv2.imread(image_path)
@@ -69,8 +73,14 @@ outputs = predictor(image)
 # Visualize the predicted result
 v = Visualizer(image[:, :, ::-1], MetadataCatalog.get(cfg.DATASETS.TRAIN[0]), scale=1.2)
 out = v.draw_instance_predictions(outputs["instances"].to("cpu"))
-cv2.imshow("Prediction Result", out.get_image()[:, :, ::-1])
-cv2.waitKey(0)
+plt.imshow(out.get_image(), interpolation='nearest')
+plt.savefig("dog_segmentation.jpg", 
+            bbox_inches ="tight", 
+            pad_inches = 1, 
+            transparent = True, 
+            facecolor ="g", 
+            edgecolor ='w', 
+            orientation ='landscape') 
 
 # Print success message
 print('Test successful!')
