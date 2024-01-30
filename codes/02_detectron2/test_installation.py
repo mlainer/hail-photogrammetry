@@ -51,7 +51,7 @@ from detectron2.utils.visualizer import Visualizer
 from detectron2.data import MetadataCatalog, DatasetCatalog
 
 # Load a sample image for testing
-image_path = "path/to/sample/image.jpg"
+image_path = "dog.jpg"
 image = cv2.imread(image_path)
 
 # Set up configuration and load pre-trained model
