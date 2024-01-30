@@ -50,8 +50,7 @@ from detectron2.config import get_cfg
 from detectron2.utils.visualizer import Visualizer
 from detectron2.data import MetadataCatalog, DatasetCatalog
 
-#Import matplotlib
-%matplotlib inline 
+#Import matplotlib 
 from matplotlib import pyplot as plt
 
 # Load a sample image for testing
