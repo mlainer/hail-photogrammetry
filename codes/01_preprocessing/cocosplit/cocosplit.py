@@ -5,7 +5,6 @@ from sklearn.model_selection import train_test_split
 from skmultilearn.model_selection import iterative_train_test_split
 import numpy as np
 
-
 def save_coco(file, info, licenses, images, annotations, categories):
     with open(file, 'wt', encoding='UTF-8') as coco:
         json.dump({ 'info': info, 'licenses': licenses, 'images': images, 
@@ -55,7 +54,6 @@ def main(args):
         if args.having_annotations:
             images = funcy.lremove(lambda i: i['id'] not in images_with_annotations, images)
 
-
         if args.multi_class:
 
             annotation_categories = funcy.lmap(lambda a: int(a['category_id']), annotations)
@@ -85,8 +83,6 @@ def main(args):
             save_coco(args.test, info, licenses, X_test, anns_test, categories)
 
             print("Saved {} entries in {} and {} in {}".format(len(anns_train), args.train, len(anns_test), args.test))
-            
-
 
 if __name__ == "__main__":
     main(args)
